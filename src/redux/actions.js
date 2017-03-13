@@ -58,25 +58,6 @@ let actions = {
         }
     },
 
-    // PERFORM AN ACTION BASED ON STATE USING 'THUNK'
-    createNewUserIdIfOdd: function() {
-        return (dispatch, getState) => {
-            const { user } = getState();
-            if(user.id % 2 === 0) {
-                return
-            }
-            dispatch(actions.createNewUserId());
-        }
-    },
 
-    createNewUserIdAsync: function() {
-        return (dispatch) => {
-            setTimeout(() => {
-                dispatch(actions.createNewUserId())
-            }, 2500)
-        }
-    }
 }
 export default actions
-
-// store.dispatch(addTodo())
