@@ -59,13 +59,13 @@ export default class NavBar extends Component {
                                             <a className="dropdown-locations" href="#">The Caribbean <i className="fa fa-chevron-right" aria-hidden="true"></i></a>
                                         </li>
                                     </ul>
-                                    
+
                                 </li>
                                 <li>
-                                    <a className='nav-links' href="#">Local Experts</a>
+                                    <a className='nav-links' href="https://utrip.com/experts/">Local Experts</a>
                                 </li>
                                 <li>
-                                    <a className='nav-links' href="#">Blog</a>
+                                    <a className='nav-links' href="http://blog.utrip.com/">Blog</a>
                                 </li>
                             </ul>
 
