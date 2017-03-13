@@ -9,7 +9,7 @@ export default class Header extends Component {
             <div className="header">
 
                 <div className='bottom-header'>
-                <h1 className="header-title">Plan your trip to </h1> <h1 className="header-title">&nbsp;&nbsp;{this.props.destination.city}&nbsp;&nbsp;</h1> <br/>
+                <h1 className="header-title">Plan your trip to </h1> <h1 className="header-title underline">&nbsp;&nbsp;{this.props.destination.city}&nbsp;&nbsp;</h1> <br/>
 
                 <a className="header-link" href="#open-modal" ><i className="fa fa-question-circle" aria-hidden="true"></i> How Utrip Personalizes your trip</a>
                 </div>

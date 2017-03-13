@@ -661,7 +661,15 @@ nav.navbar.navbar-default {
 
                     /*                      HEADER                        */
 
+.underline {
+    border-bottom: 2px solid black;
+}
 
+.underline-button {
+    border-bottom: 2px solid white;
+    display: inline-block;
+    margin: 0px !important;
+}
 .utrip-logo-nav {
     width: 120px;
     height: auto;

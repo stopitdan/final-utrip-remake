@@ -34,7 +34,7 @@ export default class DatePicker extends Component {
         if(v.target.value > this.props.travelDate.startDate && today <= v.target.value || this.props.travelDate.startDate === '' && today <= v.target.value ) {
             this.props.updateDate(this.props.travelDate.startDate, v.target.value)
         }
-    
+
     }
 
     render() {
@@ -58,7 +58,7 @@ export default class DatePicker extends Component {
                     onChange={this.handleReturnChange.bind(this)}
                 />
             </div>
-            <button className='date-button'>Explore your trip to {this.props.term}</button>
+            <button className='date-button'>Explore your trip to <p className='underline-button'>&nbsp;&nbsp;{this.props.term}&nbsp;&nbsp;</p></button>
             </div>
         );
     }
